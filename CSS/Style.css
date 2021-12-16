@@ -21,7 +21,16 @@ body {
     grid-row-start: 2;
     grid-row-end: 9;
     z-index: 2;
-    transition: 0.5s ease;
+    overflow-y: scroll;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-text {
+   position: relative;
+   height: 100%;
+   width: 100;
 }
 .annotations {
     grid-column-start: 7;
